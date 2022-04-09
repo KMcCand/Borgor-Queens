@@ -13,3 +13,5 @@ for row in range(len(test_csv)):
     image = mpimg.imread(path)
 # test_csv = pd.read_csv('/groups/CS156b/data/test')
 # solution_csv = pd.read_csv('/groups/CS156b/data/solution')
+
+hello
