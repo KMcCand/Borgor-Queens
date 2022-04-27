@@ -1,0 +1,17 @@
+
+# images = []
+# folder = '/groups/CS156b/data/test/'
+# # print(os.listdir(folder))
+# for pid in os.listdir(folder):
+#     pid_folder = folder + pid + '/'
+#     for study in os.listdir(pid_folder):
+#         study_folder = pid_folder + study + '/'
+#         for image_path in os.listdir(study_folder):
+#             img = cv2.imread(os.path.join(study_folder, image_path))
+#             if img is not None:
+#                 img = cv2.resize(img, (128, 128))
+#                 img = img_to_array(img)
+#                 images.append(img)
+
+# print(len(images))
+# test_data = np.array(images, dtype="float32") / 255.0
